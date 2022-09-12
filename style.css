@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+#welcome{
+    position: absolute;
+    bottom: 0;
+    display:table;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    width: 100%;
+    height:100%;
+    z-index: 1;
+}
+
+.reon{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name{
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h1{
+    font: size 30px; ;
+    font-family: monospace;
+    font-weight: 300;
+}
+
+#bio{
+    padding: 250px;
+    font-family: 'Ms Madi', cursive;
+    font-size: 100px;
+}
+#bio h1{
+    font-family: 'Ms Madi', cursive;
+    font-size: 100px;
+}
+.line{
+    background-color: black;
+    width:50px;
+    height: 10px;
+    margin: 8px auto;
+}
+
+.menu{
+    z-index: 10;
+    top: 10px;
+    position: absolute;
+    right: 30px;
+    list-style: none;
+    
+}
+
+.links{
+    float: left;
+    padding: 8px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.para{
+    font-family: 'Ms Madi', cursive;
+    font-size: 35px;
+}
+
+
