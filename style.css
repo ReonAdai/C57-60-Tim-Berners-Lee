@@ -41,7 +41,9 @@ h1{
 }
 
 #bio{
-    padding: 250px;
+    padding-top: 250px;
+    padding-left: 250px;
+    padding-right: 250px;
     font-family: 'Ms Madi', cursive;
     font-size: 100px;
 }
@@ -58,23 +60,49 @@ h1{
 
 .menu{
     z-index: 10;
-    top: 10px;
-    position: absolute;
-    right: 30px;
+    top: 0;
+    position: fixed;
     list-style: none;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
     
 }
 
 .links{
-    float: left;
-    padding: 8px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+    padding-left: 33px;
+    padding-right: 25px;
+    display: inline;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+
 }
 
 .para{
     font-family: 'Ms Madi', cursive;
     font-size: 35px;
+}
+
+a{
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#writings a{
+    text-decoration: underline !important;
+    color: green !important;
+    }
+
+#contact iframe{
+    margin-top: 50px;
 }
 
 
